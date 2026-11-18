@@ -1,1 +1,20 @@
+---
+title: "BST260 Final Project Proposal"
+Author: "Zihan Zhou"
+---
 
+Dear BST260 Teaching Team, Fall 2026,
+
+For my final project, I plan to write two vignettes using datasets from our course.
+
+Topic 1:
+Do the Months with the Most Waterborne Disease Outbreaks Also Have the Most Reported Cases?
+I plan to use the CDC waterborne disease outbreak dataset (waterborne) from the BST260 course R package to see whether the months with the most outbreaks are also the months with the most reported cases. I am interested in whether high case totals reflect more frequent outbreaks or a few large outbreaks.
+
+I will first check for missing outbreak start dates and case counts. Then I will group outbreaks by their start month and use two bar charts with the same month labels to compare the number of outbreaks and the total number of reported cases associated with outbreaks that began in each month. If the two charts peak in different months, I will look at the month with the highest case total and calculate what proportion of its reported cases came from the largest few outbreaks. Finally, I will discuss how missing start dates or case counts might affect the comparison.
+
+Topic 2:
+Parent and Child Heights in the Galton Data
+Using the Galton family height data from our BST260 problem set, I want to see whether the relationship between parents’ average height and their adult children’s height is similar for sons and daughters.
+
+The analysis will start with a summary of sons’ and daughters’ heights, followed by a scatterplot with a fitted line for each group. A linear regression will estimate how much taller sons and daughters tend to be, on average, for each additional inch in their parents’ average height. Since some families contribute more than one child, I’ll also consider how similarities between siblings could affect the uncertainty of those estimates.
