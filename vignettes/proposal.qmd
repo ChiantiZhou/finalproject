@@ -1,6 +1,6 @@
 ---
 title: "BST260 Final Project Proposal"
-Author: "Zihan Zhou"
+author: "Zihan Zhou"
 ---
 
 Dear BST260 Teaching Team, Fall 2026,
